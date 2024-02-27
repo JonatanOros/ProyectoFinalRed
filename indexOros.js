@@ -1,6 +1,8 @@
 const LikeDAO= require('./dataAccess/likeDAO');
 const UsuarioDAO= require('./dataAccess/usuarioDAO');
 const PublicacionDAO= require('./dataAccess/publicacionDAO');
+const ComentarioDAO= require('./dataAccess/comentarioDAO');
+const ImagenDAO= require('./dataAccess/imagenDAO');
 
 const {sequelize}= require('./models');
 
